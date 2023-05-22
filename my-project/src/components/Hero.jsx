@@ -1,13 +1,11 @@
-import React from "react";
-
-import { logo } from "../assets";
+import logo from "../assets/Leonardo_Creative_logo_summarizer_2_prev_ui.png";
 
 const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col">
       <nav className="flex justify-between items-center w-full mb-10 pt-3">
         <a href="" className="cursor-pointer">
-          <img src={logo} alt="sumz_logo" className="w-28 object-contain" />
+          <img src={logo} alt="sumz_logo" className="w-16 object-contain" />
         </a>
 
         <button
