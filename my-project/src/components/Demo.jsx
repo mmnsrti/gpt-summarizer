@@ -13,19 +13,32 @@ const Demo = () => {
   const [getSummary, { error, isFetching }] = useLazyGetSummaryQuery();
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    const existingArticle = allarticles.find(
+      (item) => item.url === article.url
+    );
+
+    if (existingArticle) return setArticle(existingArticle);
+
     const { data } = await getSummary({ articleUrl: article.url });
     if (data?.summary) {
       const newArticle = { ...article, summary: data.summary };
-      setArticle(newArticle);
       const updatedAllArticles = [newArticle, ...allarticles];
+
+      // update state and local storage
+      setArticle(newArticle);
       setAllarticles(updatedAllArticles);
-      localStorage.setItem("article", JSON.stringify(updatedAllArticles));
+      localStorage.setItem("articles", JSON.stringify(updatedAllArticles));
     }
   };
+
   useEffect(() => {
-    const articleFromLocalStorage = JSON.parse(localStorage.getItem("article"));
-    if (articleFromLocalStorage) {
-      setArticle(articleFromLocalStorage);
+    const articlesFromLocalStorage = JSON.parse(
+      localStorage.getItem("articles")
+    );
+
+    if (articlesFromLocalStorage) {
+      setAllarticles(articlesFromLocalStorage);
     }
   }, []);
   const handleCopy = (cp) => {
