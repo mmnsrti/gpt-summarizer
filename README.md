@@ -24,3 +24,11 @@ To run this project locally, follow these steps:
 
    ```shell
    git clone https://github.com/mmnsrti/gpt-summarizer.git
+2.Change to the project directory:
+
+```bash
+cd website-summarizer-app
+```
+Install dependencies:
+npm install
+3.
