@@ -53,60 +53,6 @@ The summarized content will be displayed below.
 You can save the summarized content to local storage by clicking the "Save" button.
 Access the saved content even when offline by revisiting the app.
 
-Certainly! Below is a sample README.md file for your GitHub page to explain your app that uses RapidAPI, React.js, Vite, and Tailwind CSS to summarize website content and save it in local storage.
-
-markdown
-Copy code
-# Website Summarizer App
-
-This is a web application that allows you to input a URL, which it then uses to summarize the content of the website. The summarized content is stored in local storage so that you can access it without an internet connection. This project is built using RapidAPI for content summarization, React.js for the front-end, Vite for development, and Tailwind CSS for styling.
-
-## Features
-
-- Input a website URL to summarize its content.
-- Save the summarized content in local storage.
-- Access the saved content even when offline.
-- Fast and responsive user interface.
-
-## Technologies Used
-
-- [RapidAPI](https://rapidapi.com/): Used for website content summarization.
-- [React.js](https://reactjs.org/): JavaScript library for building the front-end.
-- [Vite](https://vitejs.dev/): Build tool for development.
-- [Tailwind CSS](https://tailwindcss.com/): Utility-first CSS framework for styling.
-
-## Getting Started
-
-To run this project locally, follow these steps:
-
-1. Clone this repository:
-
-   ```shell
-   git clone https://github.com/your-username/website-summarizer-app.git
-Change to the project directory:
-
-shell
-Copy code
-cd website-summarizer-app
-Install dependencies:
-
-shell
-Copy code
-npm install
-Create a .env file in the root directory with your RapidAPI key:
-
-shell
-Copy code
-REACT_APP_RAPIDAPI_KEY=your-rapidapi-key
-Replace your-rapidapi-key with your actual RapidAPI key.
-
-Start the development server:
-
-shell
-Copy code
-npm run dev
-Open your web browser and access the app at http://localhost:3000.
-
 Usage
 Enter a website URL in the input field and click the "Summarize" button.
 The summarized content will be displayed below.
@@ -121,6 +67,8 @@ The [React.js](https://reactjs.org/), [Vite](https://vitejs.dev/), and [Tailwind
 
 
 Feel free to contribute to this project by submitting issues or pull requests.
+
+
 
 
 
