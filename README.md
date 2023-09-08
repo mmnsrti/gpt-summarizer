@@ -66,7 +66,7 @@ Acknowledgments
 The [React.js](https://reactjs.org/), [Vite](https://vitejs.dev/), and [Tailwind CSS](https://tailwindcss.com/) communities for their excellent tools and resources.
 
 
-Feel free to contribute to this project by submitting issues or pull requests.
+Feel free to contribute to this project by submitting issues or pull requests..
 
 
 
