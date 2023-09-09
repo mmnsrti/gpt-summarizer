@@ -2,6 +2,32 @@
 
 This is a web application that allows you to input a URL, which it then uses to summarize the content of the website. The summarized content is stored in local storage so that you can access it without an internet connection. This project is built using RapidAPI for content summarization, React.js for the front-end, Vite for development, and Tailwind CSS for styling.
 
+<img src="/my-project/public/Leonardo_Creative_logo_summarizer_2-removebg-preview.ico" alt="Logo" width="150" height="auto">
+
+
+## Screenshots
+
+### Main Page
+
+![Main Page](/my-project/public/mainpageRaw.png)
+
+- Clean and user-friendly interface.
+- Input a website URL.
+- Click the "Summarize" button to generate content summaries.
+- Display summarized content for quick access to essential information.
+
+### Summarized Content
+
+![Summarized Content](/my-project/public/mainpage.png)
+
+- Summarizes website content based on user-input URLs.
+- Saves search results in your browser's local storage.
+- Access saved results without re-summarizing the content.
+- Copy URL with a convenient button for easy sharing or reference.
+
+
+
+
 ## Features
 
 - Input a website URL to summarize its content.
